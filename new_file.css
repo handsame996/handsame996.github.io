@@ -1,0 +1,263 @@
+* {
+				margin: 0;
+				padding: 0;
+				
+
+			}
+			
+			ul {
+				list-style: none;
+			}
+			a{
+				text-decoration: none;
+			}
+			.historical-main a{
+				color: #1A6BE6;
+			}
+			span {
+				display: inline-block;
+				background-color:rgb(31,29,32);
+				width: 50px;
+				height: 100px;
+				line-height: 50px;
+				text-align: center;
+				border-radius: 10%;
+				line-height: 100px;
+				z-index: 2;
+			}
+			a:hover{
+				color: burlywood;
+			}
+			a ,span,.top,.left-mb,.right-mb:hover {
+				cursor: pointer;
+			}
+			.left-mb,.right-mb{
+				z-index: 1;
+			}
+			.top {
+				width: 100%;
+				height: 800px;
+				position: relative;
+				margin: auto;
+			}
+
+			.pictures {
+				width: inherit;
+				height: inherit;
+				position: absolute;
+
+			}
+
+			.picture {
+
+				width: inherit;
+				height: inherit;
+				position: absolute;
+				background-repeat: no-repeat;
+				background-size: cover;
+				opacity: 0.4;
+			}
+			
+			.picture:nth-of-type(1) {
+				background-image: url(image/2.jpg);
+			}
+
+			.picture:nth-of-type(2) {
+				background-image: url(image/4.jpg);
+			}
+
+			.picture:nth-of-type(3) {
+				background-image: url(image/3.jpg);
+			}
+
+			.first {
+				z-index: 1;
+				opacity: 1;
+				transition:all 1.0s ease-in-out;
+			}
+
+			.diops {
+				width: 20%;
+				height: 20px;
+				position: absolute;
+				bottom: 20px;
+				right: 40%;
+				z-index: 2;
+			}
+
+			.diop:hover {
+				cursor: pointer;
+				background-color: beige;
+			}
+
+			.diop {
+				float: left;
+				margin-left: 30px;
+				width: 50px;
+				height: 10px;
+				border-radius: 45%;
+				background-color: #F0F8FF;
+			}
+
+			.one {
+				background-color:rgb(179,159,146);
+			}
+
+			.left {
+				position: absolute;
+				left: 20px;
+				top: 50%
+			}
+
+			.right {
+				position: absolute;
+				right: 20px;
+				top: 50%
+			}
+			.bGroup{
+				width: 80%;
+				height:200px;
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				align-items: center;
+				margin: auto;
+				
+			}
+			.btn{
+				width: 200px;
+				height: 128px;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+			.btn:hover{
+				background-color: lavender;
+				cursor: pointer;
+			}
+			.messageBoard{
+				width: 100%;
+				height: 344px;
+				margin: 30px 0;
+				
+			}
+			.main{
+				width: 1170px;
+				height: 224px;
+				background-color: #E6E6E6;
+				padding-top: 30px;
+				margin: auto;
+				position: relative;
+				
+				
+			}
+			.left-mb{
+				width: 57px;
+				height: 209px;
+				line-height: 209px;
+				position:absolute;
+				left: -10px;
+			}
+			.right-mb{
+				width: 57px;
+				height: 209px;
+				line-height: 209px;
+				position:absolute;
+				right: -10px;
+			}
+			.right-mb img{
+				position: absolute;
+				right: -15px;
+				top: 80px;
+			}
+			.left-mb img{
+				position: absolute;
+				left: -15px;
+				top: 80px;
+			}
+			.main-mes{
+				width: 1170px;
+				height: 220px;
+				overflow:hidden;
+				position: relative;
+				
+			}
+			
+			.message{
+				width: 342.33px;
+				height: 169px;
+				float: left;
+				margin-left: 40px;
+
+			}
+			 .main-left{
+				width: 72px;
+				height: 72px;
+				border-radius: 50%;
+				overflow: hidden;
+				margin-right: 10px;
+				float: left;
+				
+			}
+			.main-right{
+				width: 260.33px;
+				height: 169px;
+				 overflow: hidden;
+				  text-overflow: ellipsis;
+				  display: -webkit-box;
+				  -webkit-line-clamp: 8;
+				  -webkit-box-orient: vertical;
+			}
+			.main-left img{
+				position: relative;
+				left: -10px;top:-5px;	
+			}
+			.main-hid{
+				width: calc(1170px * 2);
+				position: absolute;
+			} 
+			.historical{
+				width: 100%;
+				height: 360px;
+				margin-top: 20px;
+			}
+			.historical-main{
+				width: 1170px;
+				height: 263px;
+				margin: auto;
+				position: relative;
+			}
+			.historical-main-left{
+				margin-top: 10px;
+				width: 360px;
+				height: 235px;
+				text-align: center;
+				float: left;
+				
+			}
+			.historical-main-right{
+				width: 682.5px;
+				height: 200px;
+				margin-top: 10px;
+				margin-left: 5px;
+				float: left;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				display: -webkit-box;
+				-webkit-line-clamp:8;
+				-webkit-box-orient: vertical;
+			}
+			.historical-main-right p{
+				font-size: 18px;
+			}
+			.historical-main a p{
+				position: absolute;
+				bottom: 20px; right: 90px;
+			}
+			.foot{
+				width: 100%;
+				height: 100px;
+				background-color: #AAEEFF;
+				text-align: center;
+			}

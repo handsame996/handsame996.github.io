@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+	a{
+		text-decoration: none;
+		
+	}
+.top{
+	width: 100%;
+	height: 400px;
+	 background-color: cadetblue; 
+	 background-image: url(../bjgs-img/bjgs-top.jpeg);
+	 background-size: cover;
+	 background-position:0px -200px;
+}
+.box1{
+	width: 100%;
+	height: 1000px;
+	text-align: center;
+	
+}
+.bg1{
+	transform: rotateY(180deg) translateX(170px) ;
+}
+.bg2{
+	transform: translateX(170px);
+}
+#yd{
+	position: relative;
+}
+#yd1{
+	position: absolute;
+}
+.box2{
+	width: 100%;
+	height: 2500px;
+	background-color: #BDB1A9;
+	position: relative;
+	display: none;
+}
+.fot{
+	width: 800px;
+	height: 2500px;
+	margin: auto;
+	
+}
+.img-left{
+	width: 200px;
+	height: 300px;
+	position: absolute;
+	top:50px;
+	left: 50px;
+	background-image: url(../bjgs-img/bd.jpg);
+}
+.img-right{
+	width: 200px;
+	height: 300px;
+	position: absolute;
+	top:50px;
+	right: 50px;
+	background-image: url(../bjgs-img/td.jpg);
+	
+}
+.hun1 p{
+	font-size: 60px;
+	font-weight: 200;
+}
+.toTop{
+	width: 50px;
+	height: 50px;
+	color: white;
+	
+	border-radius: 50%;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	text-align: center;
+	line-height: 50px;
+	
+}
+.toTop:hover{
+	cursor: pointer;
+}
